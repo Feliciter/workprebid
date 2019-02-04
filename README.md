@@ -1,0 +1,2 @@
+# workprebid
+workprebid - генератор сборщик
