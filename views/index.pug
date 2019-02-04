@@ -1,0 +1,32 @@
+extends layout
+
+block content
+
+
+  h1 Customize and Download 
+  p
+  h4 Rubicon, AppNexus or Criteo
+
+  form(name="getprebid",action='/getprebid', method='POST')
+
+    .custom-control.custom-checkbox
+      input#customCheck1.custom-control-input(type='checkbox' name='criteo')
+      label.custom-control-label(for='customCheck1') Criteo 
+
+    .custom-control.custom-checkbox
+      input#customCheck2.custom-control-input(type='checkbox' name='rubicon')
+      label.custom-control-label(for='customCheck2') Rubicon 
+
+    .custom-control.custom-checkbox
+      input#customCheck3.custom-control-input(type='checkbox' name='appNexus')
+      label.custom-control-label(for='customCheck3') AppNexus      
+
+    
+      p
+      input(type="submit", value="Get Prebid")  
+
+
+  br
+     
+
+  
